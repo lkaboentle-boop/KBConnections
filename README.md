@@ -1,4 +1,4 @@
-KBConnections
+KBConnections - Your World, One tap away.
 Description
 **KBConnections is an Andriod app designed to help users send Suggestions easily and track feedback efficiently. The app provides a user-friendly interface with options to include the time of suggestion and automatically return to the main screen after sending.
 
