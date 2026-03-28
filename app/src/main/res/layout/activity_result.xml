@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgResult"
+            android:layout_width="597dp"
+            android:layout_height="1041dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.988"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/morning_sunrise" />
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="158dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="150dp"
+            android:backgroundTint="#D5923C"
+            android:text="Send"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.426"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.617"
+            tools:text="Send" />
+
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="418dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="150dp"
+            android:fontFamily="serif"
+            android:text="Suggestion Result"
+            android:textAlignment="center"
+            android:textColor="#070707"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@id/btnSend"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.439"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.194"
+            tools:text="Suggestion Result" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

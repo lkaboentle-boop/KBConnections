@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KBConnections</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="title_activity_result.xml">activity_result.xml</string>
+</resources>

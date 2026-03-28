@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.socialspark"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="20dp"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="512dp"
+        android:layout_height="1019dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/qhzbaxuliiillyqxooik__0__cnqgl"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.673"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.327">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="410dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="711dp"
+            android:fontFamily="@font/biorhyme_extrabold"
+            android:text="Welcome Bestie!"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.112" />
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="352dp"
+            android:backgroundTint="#AB2121"
+            android:elevation="8dp"
+            android:text="Reset"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btnSuggestion"
+            app:layout_constraintHorizontal_bias="0.539"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Please Select Your Time"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+        <Button
+            android:id="@+id/btnSuggestion"
+            android:layout_width="148dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="464dp"
+            android:layout_marginEnd="76dp"
+            android:backgroundTint="#20BA27"
+            android:elevation="8dp"
+            android:text="Suggestion"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTime" />
+
+        <CheckBox
+            android:id="@+id/chkMorning"
+            android:layout_width="162dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="12dp"
+            android:text="Morning"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTime" />
+
+        <CheckBox
+            android:id="@+id/chkAfternoon"
+            android:layout_width="162dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="84dp"
+            android:text="Afternoon"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chkMorning" />
+
+        <CheckBox
+            android:id="@+id/chkNight"
+            android:layout_width="169dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="156dp"
+            android:text="Night"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chkAfternoon" />
+
+        <CheckBox
+            android:id="@+id/chkMidMorning"
+            android:layout_width="164dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="123dp"
+            android:layout_marginTop="8dp"
+            android:text="Mid-Morning"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chkMorning" />
+
+        <CheckBox
+            android:id="@+id/chkAfternoonSnack"
+            android:layout_width="162dp"
+            android:layout_height="63dp"
+            android:layout_marginStart="123dp"
+            android:layout_marginTop="20dp"
+            android:text="Afternoon Snack Time"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chkAfternoon" />
+
+        <CheckBox
+            android:id="@+id/chkDinner"
+            android:layout_width="163dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="121dp"
+            android:layout_marginTop="13dp"
+            android:text="Dinner"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chkAfternoonSnack" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
