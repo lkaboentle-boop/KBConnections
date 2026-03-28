@@ -19,8 +19,9 @@ Screenshots
  How to use
 - Open the app
 - Select the time using the checkbox
-- Click 'Get Suggestions' to go through to the next screen
-- Click 'Send' to submit the suggestion and it will automatically return you to the main screen
+- Click the 'Suggestions' button to go through to the next screen
+- Click the 'Send' button to submit the suggestion and it will automatically return you to the main screen
+- Click the 'Reset' button to clear out the selected time of the day
 
   Technologies Used
   - Android Studio
