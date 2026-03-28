@@ -23,6 +23,7 @@ Screenshots
 - Click the 'Suggestions' button to go through to the next screen
 - Click the 'Send' button to submit the suggestion and it will automatically return you to the main screen
 - Click the 'Reset' button to clear out the selected time of the day
+  Explanation YouTube Link - https://youtube.com/shorts/pWjkTfKDwDg?si=BEGw2HV6ldzfwt8g
 
   Technologies Used
   - Android Studio
