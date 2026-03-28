@@ -1,6 +1,6 @@
 KBConnections
 Description
-**KBConnections is an Andriod app designed to help users send Suggestions eaisly and track feedback efficiently. The app provides a user-friendly interface with options to include the time of suggestion and automatically return to the main screen after sending.
+**KBConnections is an Andriod app designed to help users send Suggestions easily and track feedback efficiently. The app provides a user-friendly interface with options to include the time of suggestion and automatically return to the main screen after sending.
 
 Features
 - Sending suggestion messages
@@ -12,7 +12,7 @@ Features
  How to use
 - Open the app
 - Select the time using the checkbox
-- Click 'Get Suggestions' to go through the next screen
+- Click 'Get Suggestions' to go through to the next screen
 - Click 'Send' to submit the suggestion and it will automatically return you to the main screen
 
   Technologies Used
