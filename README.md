@@ -9,6 +9,13 @@ Features
 - Clean and responsive design
 - Safe and simple to use
 
+Screenshots
+- Main Screen
+  <img width="611" height="756" alt="image" src="https://github.com/user-attachments/assets/cead9e11-c501-45bd-aa2e-48bce8039af9" />
+- Suggestion Screen
+  <img width="418" height="726" alt="image" src="https://github.com/user-attachments/assets/184cb58d-77ea-4f34-ad8a-a93c4a3456b7" />
+
+
  How to use
 - Open the app
 - Select the time using the checkbox
